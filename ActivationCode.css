@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.ActivationCodeContainer {
+  max-width: 700px;
+  height: 400px;
+  background-color: #98a9bb;
+  margin: 20px auto;
+  display: grid;
+  border-radius: 15px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 280px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 2.5s ease-in-out;
+}
+main .container p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  opacity: 0.95;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+}
+main .Verfication-OTP input {
+  max-width: 53px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  background: #3c3f42;
+  font-size: 22px;
+  color: white;
+  outline: none;
+  margin-left: 12px;
+}
+
+main button {
+  margin-top: 25px;
+  width: 50%;
+  color: #0e0d0d;
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #e4b90c;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+}
+
+main button.active {
+  background-color: #ffcc00;
+  pointer-events: auto;
+  color: #00000000;
+}
+main button:hover {
+  background-color: #e6b801;
+}
+
+main span {
+  margin-top: 5px;
+  display: none;
+  transition: all 2s ease-in-out;
+  color: rgb(224, 60, 60);
+  word-spacing: 5px;
+  letter-spacing: 1.78px;
+  opacity: 0.8;
+}
+.error {
+  display: block;
+}
+
+.correct {
+  color: #0d437c;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.7px;
+  word-spacing: 5px;
+}
+
+.addition {
+  width: 300px !important;
+  height: 260px !important;
+  margin: 50px auto;
+  background-color: #246db1;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.7px;
+  word-spacing: 5px;
+  text-align: center;
+  font-size: 19px;
+}
